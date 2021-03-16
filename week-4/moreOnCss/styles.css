@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: wheat;
+}
+.container{
+    position: relative;
+    margin-top: 100px;
+}
+.container img{
+    display: inline-block;
+    width: 30%;
+    height: 7%0px;
+    float: left;
+
+}
+#head{
+    display: inline-block;
+    border: blue;
+    background-color: lightblue;
+    margin: 3%;
+    padding: 3%;
+
+}
+nav{
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: 'montserrat', sans-serif;
+    height: 100px;
+    background-color: rgb(42, 210, 240);
+    
+}
+nav.logo{
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    background-color: rgba(222, 250, 250, 0.589);
+    font-size: 20px;
+    color: #fff;
+}
+p{
+    display: inline;
+    margin: 10;
+    color: blue;
+    float: right;
+}
