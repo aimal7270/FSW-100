@@ -1,0 +1,118 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(26, 185, 224);
+    background-color: rgb(206, 116, 65);
+    margin: 2px;
+   /* transition: background-color;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay: 3s;*/
+    transition: background-color 1s linear 0s, width 2s linear;
+}
+.box1:hover{
+    background-color: rgb(175, 26, 26);
+    width: 300px;
+    border-color: green;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(204, 165, 165);
+    background-color: rgb(237, 100, 214);
+    margin: 2px;
+   /* transition: background-color;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay: 3s;*/
+    transition: background-color 1s linear 1s, width 2s linear;
+}
+.box2:hover{
+    background-color: rgb(26, 175, 63);
+    width: 100px;
+    box-shadow: rgb(180, 134, 42);
+    margin: 20px;
+
+
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(34, 1, 1);
+    background-color: rgb(196, 82, 37);
+    margin: 2px;
+   /* transition: background-color;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay: 3s;*/
+    transition: background-color 1s linear 2s, width 2s linear;
+}
+.box3:hover{
+    background-color: rgb(117, 4, 112);
+    width: 100px;
+    box-shadow: rgb(121, 57, 20);
+    padding: 20px;
+    position: absolute;
+
+
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(76, 12, 119);
+    background-color: rgb(191, 221, 23);
+    margin: 2px;
+   /* transition: background-color;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay: 3s;*/
+    transition: background-color 1s linear 3s, width 2s linear;
+}
+.box4:hover{
+    background-color: rgb(117, 40, 4);
+    width: 100px;
+    border-color: indianred;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    border: 6px dashed palevioletred;
+}
+.box5{
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(128, 3, 3);
+    background-color: rgb(8, 33, 80);
+    margin: 2px;
+
+   /* transition: background-color;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay: 3s;*/
+    transition: background-color 0s linear 1s, width 2s linear;
+}
+.box5:hover{
+    background-color: fuchsia;
+    bottom: 5px;
+    text-align: center;
+    border: 10px springgreen;
+    margin: 30px;
+}
+.box6{
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(136, 43, 43);
+    background-color: rgb(59, 211, 92);
+   /* transition: background-color;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay: 3s;*/
+    transition: background-color 3s linear 2s,  linear;
+}
+.box6:hover{
+    background-color: fuchsia;
+    bottom: 5px;
+    opacity: inherit;
+    border: 10px rgb(159, 214, 6);
+    border: 30px dashed rebeccapurple;
+    height: 50px;
+}
