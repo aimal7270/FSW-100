@@ -1,0 +1,208 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-image: url(siteb.jpg);
+    margin: 0 auto;
+    padding: 0%
+
+}
+
+
+@media only screen and (min-width: 320px){
+header{
+    text-align: center;
+}
+header h1{
+    font-family: sans-serif;
+    font-size: 35px;
+    color: teal;
+}
+header img{
+    display: none;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+nav a{
+    font-family: 'Crafty Girls', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color:teal;
+    margin: 2px;
+    border: 2px dashed black;
+    padding: 5px;
+    background-color: lightblue;
+}
+nav a:hover{
+    border: 3px solid rgb(153, 37, 37);
+    display: block;
+    
+}
+li:hover{
+    text-decoration: underline;
+}
+
+table{
+    border: 2px solid rgb(221, 253, 37);
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: teal;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid rgb(221, 253, 37);
+    font-size: 20px;
+}
+
+td:hover{
+    text-decoration: underline;
+}
+
+#welcome{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    border-bottom-width: 15px;
+    padding-bottom: 15px;
+}
+#welcome p{
+    font-family: 'Crafty Girls', cursive;
+    font-size: 20px;
+    text-align: center;
+    text-emphasis: bold;
+    color: teal;
+}
+#welcome ul{
+    font-family: 'Crafty Girls', cursive;
+    font-size: 15px;
+    text-align: center;
+    list-style: inside;
+    color: teal;
+}
+.grid figcaption:hover{
+    border: 2px solid white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto;
+    margin-bottom: 50px;
+    color: teal;
+}
+.grid h1{
+    font-family: 'Crafty Girls', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+ #spicy,#glossy, #paper{
+    font-family: 'Crafty Girls', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+div img{
+    height:250px;
+    width: 250px;
+    margin: 10px;
+}
+#copy{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+.footer{
+    color: white;
+    border: 2px solid rgb(175, 126, 126);
+    background-color: black;
+    
+}
+
+
+@media only screen and (min-width: 768px){
+    header h1{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    header img{
+        height: 75px;
+        margin-top: 45px;
+        display: block;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav{
+        grid-template-columns: auto auto auto auto;
+    }
+    nav a{
+        margin: 10px;
+        padding: 10px;
+    }
+    #welcome{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    #welcome p{
+        font-size: 30px;
+    }
+    #welcome ul{
+        font-size: 25px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-bottom: 50px;
+    }
+    .grid h1{
+        grid-column: 1 / span 2;
+    }
+    #paper{
+        grid-column: 1/span 2;
+    }
+    .contact{
+        float:right;
+        margin-right: 125px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    header h1{
+        font-size: 75px;
+        margin-top: 75px;
+    }
+    header img{
+        height: 150px;
+        margin-top: 45px;
+    }
+    #welcome{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-bottom: 50px;
+    }
+    .grid h1{
+        grid-column: 1 / span 3;
+    }
+    #paper{
+        grid-column: 3;
+    }
+}}
