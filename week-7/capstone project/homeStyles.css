@@ -146,6 +146,7 @@ code, pre {
     -ms-transform: skewY(-3deg);
 }
 
+
 /* stats */
 .stats {
     padding-top: 100px;
@@ -365,6 +366,22 @@ Mobile */
         background-color: rgba(0, 0, 0, 0.1);
     }
 }
+
+@media(max-width:300px) {
+    .navbar {
+        height: 110px;
+    }
+    .navbar .flex {
+        flex-direction: column;
+    }
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+}
+
+
 
 /* utilities*/
 .container{
