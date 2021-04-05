@@ -381,7 +381,17 @@ Mobile */
     
 }
 
-
+@media only screen and (max-width: 320px) {
+table{
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td{
+    border: black solid 2px;
+    padding: 5px;
+}
+}
 
 /* utilities*/
 .container{
@@ -417,6 +427,22 @@ Mobile */
 .btn:hover {
     transform: scale(.90);
 }
+
+/* table */
+table {
+    color: var(--primary-color);
+}
+
+.container table{
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td{
+    border: black solid 2px;
+    padding: 5px;
+}
+
 
 /* Backgrounds & colored buttons */
 .bg-primary, 
